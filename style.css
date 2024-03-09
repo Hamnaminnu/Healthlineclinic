@@ -1,0 +1,163 @@
+a:hover{
+    color: rgb(2, 8, 65) !important;
+    font-weight: bold;
+}
+/* background-image: url(https://nextcare.com/wp-content/uploads/2022/10/Hero-Wave-2.png);
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover; */
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    width: 100%;
+    max-height: 500px;
+}
+@media only screen and (max-width: 480px) {
+    .banner-card img {
+      width: 100%;
+      height: 1500px;
+      background-color: rgb(97, 233, 233);
+    }
+  }
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    /* left: 25%; */
+    padding: 20px;
+    color: whitesmoke;
+}
+.banner-text h4{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    /* font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal; */
+    font-size: 8em;
+    /* font-weight: 2em; */
+    color: rgb(171, 171, 151);
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+.row {margin: 0 -5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(193, 243, 240);
+  }
+  .card:hover {
+    background-color: rgb(145, 209, 205);
+  }
+.card h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 5em;
+    font-weight: 500;
+    color: rgb(22, 87, 107);
+    text-align: center;
+}
+.card p{
+    font-size: 1em;
+    color: rgb(11, 48, 59);
+    text-align: center;
+}
+.row2{
+    margin: 40px;
+
+}
+
+  .column2 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 500px;
+  }
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+  }
+  body {margin:0;}
+
+.slideshow-container {
+    max-width: 75%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .text {
+    color: rgb(0, 143, 156);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Dancing Script", cursive;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
